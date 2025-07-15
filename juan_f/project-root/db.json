@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "avatar": "./app/assets/2.jpg"
+    },
+    {
+      "id": "2",
+      "fullName": "Juan Pérez",
+      "email": "juan@gmail.com",
+      "password": "123456",
+      "role": "visitor",
+      "avatar": "./app/assets/3.jpg"
+    },
+    {
+      "id": "3",
+      "fullName": "María García",
+      "email": "maria@gmail.com",
+      "password": "123456",
+      "role": "visitor",
+      "avatar": "./app/assets/3.jpg"
+    },
+    {
+      "id": "af8e",
+      "fullName": "juan",
+      "email": "juan1@gmail.com",
+      "password": "123456",
+      "role": "visitor",
+      "avatar": "./app/assets/3.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Conferencia de Tecnología 2024",
+      "description": "La conferencia más importante del año sobre las últimas tendencias en tecnología",
+      "date": "2024-12-15",
+      "capacity": 200,
+      "image": "./app/assets/1.jpg",
+      "enrolledUsers": [
+        "af8e"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Workshop de Desarrollo Web",
+      "description": "Aprende las mejores prácticas en desarrollo web moderno",
+      "date": "2024-12-20",
+      "capacity": 50,
+      "image": "./app/assets/1.jpg",
+      "enrolledUsers": []
+    },
+    {
+      "id": "3",
+      "name": "Meetup de JavaScript",
+      "description": "Networking y charlas sobre JavaScript y ecosistemas modernos",
+      "date": "2024-12-25",
+      "capacity": 100,
+      "image": "./app/assets/1.jpg",
+      "enrolledUsers": []
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": 2,
+      "eventId": 1,
+      "enrollmentDate": "2024-12-01"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "eventId": 2,
+      "enrollmentDate": "2024-12-02"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "eventId": 1,
+      "enrollmentDate": "2024-12-01"
+    },
+    {
+      "id": "3a78",
+      "userId": "af8e",
+      "eventId": "1",
+      "enrollmentDate": "2025-07-14"
+    }
+  ]
+}

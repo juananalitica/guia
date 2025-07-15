@@ -1,0 +1,26 @@
+{
+  "name": "juanbalcero213",
+  "version": "1.0.0",
+  "description": "SPA para gestión de eventos con autenticación y roles",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3000",
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spa",
+    "events",
+    "management",
+    "javascript"
+  ],
+  "author": "Juan Carlos Balcero",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^7.0.4"
+  }
+}
